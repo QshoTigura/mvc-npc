@@ -14,9 +14,9 @@ namespace mvcZelenhuci.controller
         public GardenController()
         {
             display = new Display();
-            garden = new Garden(display.VegiPrice,display.FruitsPrice,display.VegiKG,display.fruitsKG);
+            garden = new Garden(display.VegiPrice,display.FruitsPrice,display.VegiKG,display.FruitsKG);
             display.Total = garden.CalculateSum();
-            display.ShowResult();
+            display.Showresut();
         }
     }
 }
