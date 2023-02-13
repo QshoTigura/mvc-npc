@@ -20,7 +20,7 @@ namespace mvcZelenhuci.model
         public int FruitsKG { get; set; }
         public decimal CalculateSum()
         {
-            return 1.94m * (this.FruitsKG * this.FruitsPrice + VegiKG * VegiPrice);
+            return 1.94m * (this.FruitsKG * this.FruitsPrice + VegiKG * VegiPrice)/194m;
         }
     }
 }
