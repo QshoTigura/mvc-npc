@@ -14,13 +14,13 @@ namespace mvcZelenhuci.model
             FruitsKG = fruitsKG;
         }
 
-        public decimal VefiPrice { get; set; }
+        public decimal VegiPrice { get; set; }
         public decimal FruitsPrice { get; set; }
         public int VegiKG { get; set; }
         public int FruitsKG { get; set; }
         public decimal CalculateSum()
         {
-            return 1.94m * (this.FruitsKG * this.FruitsPrice + VegiKG * VefiPrice);
+            return 1.94m * (this.FruitsKG * this.FruitsPrice + VegiKG * VegiPrice);
         }
     }
 }
