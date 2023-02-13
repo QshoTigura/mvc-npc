@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="model\" />
     <Folder Include="controller\" />
     <Folder Include="view\" />
   </ItemGroup>
