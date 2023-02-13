@@ -6,7 +6,16 @@ namespace mvcZelenhuci.view
 {
     public class Display
     {
-        public decimal VefiPrice { get; set; }
+        public Display()
+        {
+            this.VefiPrice = 0;
+            this.FruitsPrice = 0;
+            this.VegiKG = 0;
+            this.FruitsKG = 0;
+            this.Total = 0;
+        }
+
+        public decimal VegiPrice { get; set; }
         public decimal FruitsPrice { get; set; }
         public int VegiKG { get; set; }
         public int FruitsKG { get; set; }
@@ -14,7 +23,7 @@ namespace mvcZelenhuci.view
 
         public void GetValues()
         {
-            this.VefiPrice = decimal.Parse(Console.ReadLine());
+            this.VegiPrice = decimal.Parse(Console.ReadLine());
             this.FruitsPrice = decimal.Parse(Console.ReadLine());
             this.VegiKG = int.Parse(Console.ReadLine());
             this.FruitsKG = int.Parse(Console.ReadLine());
