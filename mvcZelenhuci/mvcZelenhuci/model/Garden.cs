@@ -8,7 +8,7 @@ namespace mvcZelenhuci.model
     {
         public Garden(decimal vefiPrice, decimal fruitsPrice, int vegiKG, int fruitsKG)
         {
-            VefiPrice = vefiPrice;
+            VegiPrice = vefiPrice;
             FruitsPrice = fruitsPrice;
             VegiKG = vegiKG;
             FruitsKG = fruitsKG;
