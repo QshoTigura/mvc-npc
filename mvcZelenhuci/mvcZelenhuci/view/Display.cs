@@ -8,7 +8,7 @@ namespace mvcZelenhuci.view
     {
         public Display()
         {
-            this.VefiPrice = 0;
+            this.VegiPrice = 0;
             this.FruitsPrice = 0;
             this.VegiKG = 0;
             this.FruitsKG = 0;

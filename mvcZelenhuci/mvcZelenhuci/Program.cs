@@ -1,4 +1,5 @@
-﻿using System;
+﻿using mvcZelenhuci.controller;
+using System;
 
 namespace mvcZelenhuci
 {
@@ -6,7 +7,7 @@ namespace mvcZelenhuci
     {
         static void Main(string[] args)
         {
-            
+            GardenController controller = new GardenController();
         }
     }
 }
